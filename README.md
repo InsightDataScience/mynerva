@@ -23,7 +23,7 @@ Run the following in the browser terminal to enable the client-side extension:
 	   "load_extensions": {"print-cell":true}
 	})
 
-User actions in the notebook will now be logged in a text file in the logs directory.
+User actions in the notebook will now be logged in a text file in the `$HOME/.ipython/extensions` directory.
 
 # Docker Approach
 ## Installing Docker on Mac
