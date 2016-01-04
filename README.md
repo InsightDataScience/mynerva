@@ -5,9 +5,9 @@ logging Jupyter notebook actions
 
 **1) Create symbolic links in jupyter's nbextensions directory to mynerva's nbextensions**
 
-`ln -s ~/[path to repo]/mynerva/nbextensions/markcell.js ~/.ipython/nbextensions/markcell.js`
+`ln -s ~/[path to repo]/mynerva/ipython/nbextensions/markcell.js ~/.ipython/nbextensions/markcell.js`
 
-`ln -s ~/[path to repo]/mynerva/nbextensions/print-cell.js ~/.ipython/nbextensions/print-cell.js`
+`ln -s ~/[path to repo]/mynerva/ipython/nbextensions/print-cell.js ~/.ipython/nbextensions/print-cell.js`
 
 **2) Start the notebook server with run_ipython.sh**
 
